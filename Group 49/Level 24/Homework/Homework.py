@@ -1,34 +1,38 @@
-#3)შექმენით list'ი და ამოაგდეთ მეექვსე ელემენტი ინდექსის მეშვეობით (pop) 
-
-my_list = [10, 20, 30, 40, 50, 60]
-removed_element = my_list.pop(5)  
-print(my_list)
-
-#4)შექმენით list'ი და ამოაგდეთ მეორე ელემენტი მნიშვნელობის მეშვეობით (remove)
-
-my_list = [10, 20, 30, 40]
-my_list.remove(20)  
-print(my_list)  
-
-#5)შექმენით list'ი და ბოლოში ჩაამატეთ ახალი ელემენტი
-
-my_list = [10, 20, 30, 40]
-my_list.append(50)
-print(my_list)
-
-#6) შექმენით list'ი და მეორე ელემენტად ჩაამატეთ ახალი ელემენტი
-
-my_list = [10, 20, 30, 40]
-my_list.insert(1, 15) 
-print(my_list) 
-
-#7)შექმენით list'ი და ამოშალეთ ბოლო ელემენტი
-
-my_list = [10, 20, 30, 40]
-removed_element = my_list.pop(3)  
-print(my_list)
-
-#8)შექმენით list'ი და დათვალეთ რამდენი ელემენტია შიგნით
+#1)დღეს რომელი ფუნქციები და მეთოდები ვისწავლეთ, გატესტეთ ყველა: 
+# len(), .append(), .insert(), .pop(), .remove()
 
 my_list = [10, 20, 30, 40]
 print(len(my_list))  
+
+my_list.append(40)
+print(my_list)  
+
+my_list.insert(2, 12) 
+print(my_list) 
+
+removed_element = my_list.pop(3)  
+print(my_list)  
+print(removed_element)  
+
+my_list.remove(20)  
+print(my_list)  
+
+#2).pop() მეთოდის გამოყენებით გამოაცალკევეთ კონკრეტული ელემენტი 
+# list'ისგან და ჩასვით ცალკე ცვლადში ზუსტად ისე როგორც მე გავაკეთე
+
+my_list = [10, 20, 30, 40]
+variable = my_list.pop(2)
+print(variable)
+print(my_list)
+
+
+#3)ახსენით განხსვავება pop'სა და remove'ს შორის
+
+# pop() ფუნქცია ლისტიდან ამიაგდებს ელემენტს ინდექსით ხოლო remove()-ით კი თვითონ იმ ელემენტის სახელით.
+
+
+#4)შექმენით 4 ელემენტიანი list'ი და შუაში ჩაამატეთ 1 ელემენტი
+
+my_list = [34, 73, 59, 64]
+my_list.insert(2, 12) 
+print(my_list)
