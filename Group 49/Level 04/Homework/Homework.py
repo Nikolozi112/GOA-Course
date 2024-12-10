@@ -2,6 +2,9 @@
 
 point = 50
 point = 54
+point = 32
+point = 75
+point = 14
 print(point)
 
 # 2) გაასწორეთ შემდეგი კოდი:
