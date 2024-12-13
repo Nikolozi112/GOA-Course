@@ -12,35 +12,34 @@ for i in str1:
 
 # 3) ექმენით for loop'ი რომელიც 1000'დან 0'მდე დაპრინტავს ყველა რიცხვს
 
-for i in range(100, 0, -1):
+for i in range(1000, 0, -1):
     print(i)
 
 # 4) მაღაზიაში არის ფასდაკლება მხოლოდ არასრულწოვნებზე. არასრუწლოვანი ადამიანი მიიღებს 50%იან ფასდაკლებას ხოლო სრულწლოვანი გადაიხდის ჩვეულებრივ ფასს. დაწერე პროგრამა რომელიც ადამიანს ეტყვის მან მიიღო თუ არა ფასდაკლება.
 
-age = int(input("Enter your age:"))
+# age = int(input("Enter your age:"))
 
-if age >= 18:
-    print("You didn't get discount.")
-else:
-    print("You got 50%' discount.")
+# if age >= 18:
+#     print("You didn't get discount.")
+# else:
+#     print("You got 50%' discount.")
 
 # 5)  მაღაზიაში არის ფასდაკლება მხოლოდ არასრულწოვნებზე და 18 წლის ხალხზე. არასრუწლოვანი ადამიანი მიიღებს 50%იან ფასდაკლებას, 18 წლის ადამიანი მიიღებს 25% ფასდაკლებას, ხოლო სრულწლოვანი გადაიხდის ჩვეულებრივ ფასს. დაწერე პროგრამა რომელიც ადამიანს ეტყვის მან მიიღო თუ არა ფასდაკლება და თუ მიიღო რამდენი.
 
-age = int(input("Enter your age:"))
+# age = int(input("Enter your age:"))
 
-if age > 18:
-    print("You didn't get discount.")
-elif age == 18:
-    print("You got 25%' discount.")
-else:
-    print("You got 50%' discount.")
+# if age > 18:
+#     print("You didn't get discount.")
+# elif age == 18:
+#     print("You got 25%' discount.")
+# else:
+#     print("You got 50%' discount.")
 
 # 6)  მაღაზიაში ფასდაკლება არის მხოლოდ არასრულოვნებზე და სტუდენტებზე. არასრუწლოვანი ან სტუდენტი ადამიანი მიიღებს 50%იან ფასდაკლებას ხოლო სრულწლოვანი ან არასტუდენტი გადაიხდის ჩვეულებრივ ფასს. დაწერე პროგრამა რომელიც ადამიანს ეტყვის მან მიიღო თუ არა ფასდაკლება.
 
 age = int(input("Enter your age:"))
 is_student = False
-
-if age < 18 or is_student:
-    print("You got 50%' discount.")
+if age > 25 or is_student:
+    print("u get 50%' discount.")
 else:
     print("Regular price.")
