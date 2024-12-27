@@ -1,40 +1,39 @@
 <!-- 1) შექმენით ფორმა რომელშიც გექნებათ: 2 ტექსტური ინფუთი, 1 მეილის ინფუთი, 1 თარიღის ინფუთი, 1 პაროლის ინფუთი, drop-down menu და 1 submit'ის ინფუთი -->
 
-<!-- 2) წარმოიდგინეთ ხართ facebook'ის developer'ი და შექმენით facebook'ის სარეგისტრაციო ფორმა -->
-
 <!DOCTYPE html>
 <html lang=" en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="widht-device-width, initial-scale-1.0">
-    <title>Document</title>
+    <title>ALTA</title>
 </head>
+
 <body>
-    <h1>FACE BOOK</h1> <br><br>
-    <p id="Sing in">SING IN</p> <br>
     <form>
-        <input type="text" placeholder="Name" name="name" required> <br><br>
-        <input type="email" placeholder="Email" name="Email" required> <br><br>
-        <input type="date" placeholder="Data" name="Data" required> <br><br> 
-        <input type="password" placeholder="Password" name="Password" required> <br><br>
+
+        <lable>Name:</lable>
+        <input type="text"> <br><br>
+
+        <lable>Email:</lable>
+        <input type="email"> <br><br>
+
+        <lable>Data</lable>
+        <input type="date"> <br><br>
+
+        <lable>Password:</lable>
+        <input type="password"> <br><br>
+
+        <div class="menu-container">
+            <label>Select how to pay:</label>
+            <select id="countries">
+                <option>none</option>
+                <option>Visa card</option>
+                <option>credit cards</option>
+            </select>
+        </div> <br><br>
+
         <input type="submit"> <br>
+
     </form>
-    <nav>
-        <ul>
-            <li><a href="#Log in">LOG IN</a></li>
-        </ul>
-    </nav>
-    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-    <p id="Log in">LOG IN</p> <br>
-    <form>
-        <input type="text" placeholder="Name" name="name" required> <br><br> 
-        <input type="password" placeholder="Password" name="Password" required> <br><br>
-        <input type="submit"> <br>
-    </form>
-    <nav>
-        <ul>
-            <li><a href="#Sing in">SING IN</a></li>
-        </ul>
-    </nav>
 </body>
-</html>

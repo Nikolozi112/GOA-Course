@@ -1,24 +1,53 @@
-<!-- 1) შექმენით form label'ების გამოყენებით რომელშიც მომხმარებელს შემოატანინებთ, სახელს, მეილს და პაროლს. --> 
- <!-- 2) შექმენით form'ი placeholder'ების გამოყენებით რომელშიც მომხმარებელს შემოატანინებთ სახელს, დაბადების წელს, მეილს და პაროლს. --> 
- <!-- 3) შექმენით form'ი რომელიც მომხმარებელს აარჩევინებს კარტით იხდის თუ ქეშით. -->
+<!-- 1) შექმენით form label'ების გამოყენებით რომელშიც მომხმარებელს შემოატანინებთ, სახელს, მეილს და პაროლს. -->
 
-<html lang=""en>
+<!DOCTYPE html>
+<html lang=" en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="widht-device-width, initial-scale-1.0">
+    <title>ALTA</title>
+</head>
+<body>
+    <form>
+
+        <lable>Name:</lable>
+        <input type="text"> <br><br>
+
+        <lable>Email:</lable>
+        <input type="email"> <br><br>
+
+        <lable>Data</lable>
+        <input type="date"> <br><br>
+
+        <lable>Password:</lable>
+        <input type="password"> <br><br>
+
+    </form>
+</body>
+
+<!-- 2) შექმენით form'ი placeholder'ების გამოყენებით რომელშიც მომხმარებელს შემოატანინებთ სახელს, დაბადების წელს, მეილს და პაროლს. -->
+<!-- 3) შექმენით form'ი რომელიც მომხმარებელს აარჩევინებს კარტით იხდის თუ ქეშით. -->
+
+<!DOCTYPE html>
+<html lang="" en>
 <head>
     <meta name="viewport" content="width=width-device-width, initial-scele=1.0">
     <title>Document</title>
 </head>
+
 <body>
     <form>
         <input type="text" placeholder="Name" name="name" required> <br><br>
         <input type="email" placeholder="Email" name="Email" required> <br><br>
-        <input type="date" placeholder="Data" name="Data" required> <br><br> 
+        <input type="date" placeholder="Data" name="Data" required> <br><br>
         <input type="password" placeholder="Password" name="Password" required> <br><br>
 
         <input type="radio" id="r1" name="payment method" value="cash" required>
         <label for="r1">Cash</label> <br><br>
         <input type="radio" id="r2" name="payment method" value="card" required>
         <label for="r2">Card</label> <br><br>
-        <input type="submit">   
+        <input type="submit">
     </form>
 </body>
+
 </html>

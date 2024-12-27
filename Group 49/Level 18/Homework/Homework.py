@@ -10,8 +10,8 @@ print(list1[0: 7])
 # 2.
 print(list1[-6: ])
 # 3.
-list1.insert(6, 234) 
+list1[5] = 235 
 print(list1)
 # 4.
-list1.insert(5, "six") 
+list1[4] = 375 
 print(list1)

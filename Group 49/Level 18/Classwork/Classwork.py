@@ -21,7 +21,7 @@ print(words[1] + words[2])
 # 4) შექმენით კიდევ ერთი list'ი და Indexing'ის მეშვეობით შეუცვალეთ ბოლო ელემენტის მნიშვნელობა
 
 list = ["Earth", 7, "Snowman", 42]
-list.insert(4, 12) 
+list[3] = 12
 print(list)
 
 # 5) ახსენით რას ნიშნავს mutable
