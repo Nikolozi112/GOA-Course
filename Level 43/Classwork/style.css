@@ -1,0 +1,25 @@
+* {
+    padding: 0;
+    margin: 15px;
+    box-sizing: border-box;
+}
+
+:root {
+    --pColor: yellow;
+    --pSize: 1.5em;
+    --pFontfamily: monospace;
+
+    --btColor: red;
+    --btSize: 2em;
+    --btFontfamily: monospace;
+
+    --spanColor: green;
+    --spanSize: 1.2em;
+    --spanFontfamily: monospace;
+}
+
+p {
+    color: var(--pColor);
+    font-size: var(--pSize);
+    font-family: var(--pFontfamily);
+}
