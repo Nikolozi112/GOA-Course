@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ვებგვერდის სათაური</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>ვებგვერდის სათაური</h1>
+    <nav>
+      <ul>
+        <li><a href="#section1">სექცია 1</a></li>
+        <li><a href="#section2">სექცია 2</a></li>
+        <li><a href="#section3">სექცია 3</a></li>
+        <li><a href="#section4">სექცია 4</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="section1" class="static-section">
+      <h2>Static პოზიციონირება</h2>
+      <p>ეს სექცია იყენებს ნაგულისხმევ პოზიციონირებას (static).</p>
+    </section>
+
+    <section id="section2" class="relative-section">
+      <h2>Relative პოზიციონირება</h2>
+      <div class="relative-box">გადატანილი ბლოკი</div>
+    </section>
+
+    <section id="section3" class="absolute-section">
+      <h2>Absolute პოზიციონირება</h2>
+      <div class="container">
+        <div class="absolute-box">აბსოლუტური</div>
+      </div>
+    </section>
+
+    <section id="section4" class="sticky-section">
+      <h2 class="sticky-title">Sticky სათაური</h2>
+      <p>გადასრიალე გვერდზე ქვემოთ და სათაური დაიჭერს თავს სანამ არ გააბიჯებ.</p>
+      <p>მეტი კონტენტი...</p>
+      <p style="height: 800px;"></p>
+    </section>
+  </main>
+
+  <footer>
+    <p>small footer</p>
+  </footer>
+</body>
+</html>
